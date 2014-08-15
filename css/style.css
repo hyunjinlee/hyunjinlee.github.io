@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto);
-@import url(http://fonts.googleapis.com/css?family=Crimson+Text);
+/*@import url(http://fonts.googleapis.com/css?family=Roboto);*/
+/*@import url(http://fonts.googleapis.com/css?family=Crimson+Text);*/
 
 .clearfix:before,
 .clearfix:after {
@@ -100,7 +100,7 @@ header {
 }
 
 .header-ul li a {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 8px;
 }
 
@@ -128,7 +128,7 @@ header {
     position: relative;
     float: right;
     margin-top: 7px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', serif;
     font-size: 8px;
 }
 
@@ -136,7 +136,7 @@ header {
     position: relative;
     float: right;
     margin-top: 3px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', serif;
     font-size: 8px;
 }
 
@@ -144,7 +144,7 @@ header {
     position: relative;
     float: right;
     margin-top: 3px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', serif;
     font-size: 8px;
 }
 
@@ -152,7 +152,7 @@ header {
     position: relative;
     float: right;
     margin-top: 3px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', serif;
     font-size: 8px;
 }
 
@@ -160,7 +160,7 @@ header {
     position: relative;
     float: left;
     margin-top: 3px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', serif;
     font-size: 8px;
     text-align: justify;
 }
@@ -169,7 +169,7 @@ header {
     position: relative;
     float: left;
     margin-top: 3px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', serif;
     font-size: 8px;
     text-align: justify;
 }
@@ -188,7 +188,7 @@ header {
 .video1 {
     margin-top: 65px;
     width: 435px;
-    height: 245px;
+    /*height: 245px;*/
     /*background-color: yellow;*/
     float: left;
 }
@@ -220,7 +220,7 @@ header {
     margin-left: 30px;
     width: 195px;
     height: 20px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', serif;
     font-size: 28px;
 }
 
@@ -233,7 +233,7 @@ header {
 .category {
     margin-top: 40px;
     height: 10px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', serif;
     font-size: 8px;
 }
 
@@ -241,7 +241,7 @@ header {
 
     width: 300px;
     height: 20px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', serif;
     font-size: 18px;
 }
 
@@ -249,7 +249,7 @@ header {
     margin-top: 20px;
     width: 312px;
     height: 160px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     line-height: 150%;
     text-align: justify;
