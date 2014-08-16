@@ -162,7 +162,7 @@ header {
 }
 
 .box1 {
-    width: 450px;
+    width: 445px;
 }
 
 .box1_3 {
@@ -228,7 +228,7 @@ header {
 }
 
 .box2 {
-    width: 322px;
+    width: 318px;
     margin-left: 435px;
     position: fixed;
 }
@@ -246,13 +246,13 @@ header {
 
 .video1 {
     margin-top: 65px;
-    width: 450px;
+    width: 445px;
     float: left;
 }
 
 .video2 {
     margin-top: 56px;
-    width: 450px;
+    width: 445px;
     float: left;
 }
 
@@ -266,7 +266,7 @@ header {
 
 .image1 {
     margin-top: 600px;
-    margin-left: 168px;
+    margin-left: 163px;
     width: 280px;
     height: 547px;
 }
