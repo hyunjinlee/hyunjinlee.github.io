@@ -127,7 +127,7 @@ header {
 }
 
 .header-ul li a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Droid Serif', serif;
     font-size: 10px;
 }
 
@@ -162,7 +162,7 @@ header {
 }
 
 .box1 {
-    width: 435px;
+    width: 450px;
 }
 
 .box1_3 {
@@ -172,43 +172,47 @@ header {
 .caption-00 {
     position: relative;
     float: right;
-    margin-top: 3px;
-    font-family: 'Crimson Text', serif;
-    font-size: 10px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-style: italic;
 }
 
 .caption-01 {
     position: relative;
     float: right;
-    margin-top: 3px;
-    font-family: 'Crimson Text', serif;
-    font-size: 10px;
-
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-style: italic;
 }
 
 .caption-02 {
     position: relative;
     float: right;
-    margin-top: 3px;
-    font-family: 'Crimson Text', serif;
-    font-size: 10px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-style: italic;
 }
 
 .caption-03 {
     position: relative;
     float: right;
-    margin-top: 3px;
-    font-family: 'Crimson Text', serif;
-    font-size: 10px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-style: italic;
 }
 
 .caption-04 {
     position: relative;
     float: left;
     margin-top: 5px;
-    font-family: 'Crimson Text', serif;
-    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
     text-align: justify;
+    font-style: italic;
 
 }
 
@@ -216,14 +220,15 @@ header {
     position: relative;
     float: left;
     margin-top: 5px;
-    font-family: 'Crimson Text', serif;
-    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
     text-align: justify;
+    font-style: italic;
 
 }
 
 .box2 {
-    width: 312px;
+    width: 322px;
     margin-left: 435px;
     position: fixed;
 }
@@ -241,13 +246,13 @@ header {
 
 .video1 {
     margin-top: 65px;
-    width: 435px;
+    width: 450px;
     float: left;
 }
 
 .video2 {
     margin-top: 56px;
-    width: 435px;
+    width: 450px;
     float: left;
 }
 
@@ -261,14 +266,9 @@ header {
 
 .image1 {
     margin-top: 600px;
-    margin-left: 158px;
+    margin-left: 168px;
     width: 280px;
     height: 547px;
-}
-
-.image1_3 {
-    margin-left: 310px;
-
 }
 
 .image2 {
@@ -276,6 +276,13 @@ header {
     /*margin-left: 158px;*/
     width: 280px;
     height: 547px;
+}
+
+.image3 {
+    margin-top: 400px;
+    margin-left: 310px;
+    width: 280px;
+    height: 700px;
 }
 
 .a {
@@ -297,10 +304,6 @@ header {
 .image-box1_2 {
 }
 
-.image-box1_3 {
-    padding-top: 30px;
-}
-
 .image-box2_2 {
     margin-top: 30px;
     text-align: justify;
@@ -312,40 +315,56 @@ header {
     margin-bottom: 100px;
 }
 
+
+.image-box1_3 {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.image-box2_3 {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.image-box3_3 {
+    margin-top: 20px;
+    text-align: justify;
+}
+
 /*text part*/
 
 .title {
     margin-left: 30px;
-    width: 195px;
+    width: 100%;
     height: 20px;
     font-family: 'Crimson Text', serif;
-    font-size: 28px;
+    font-size: 40px;
 }
 
 .txt {
     margin-left: 30px;
-    width: 155px;
+    width: 100%;
     height: 200px;
 }
 
 .category {
     margin-top: 40px;
     height: 10px;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Droid Serif', serif;
     font-size: 10px;
 }
 
 .txt-0 {
 
-    width: 300px;
+    width: 100%;
     height: 20px;
     font-family: 'Crimson Text', serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .txt-1 {
     margin-top: 20px;
-    width: 312px;
+    width: 100%;
     height: 160px;
     font-family: 'Roboto', sans-serif;
     font-size: 11.5px;
