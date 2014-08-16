@@ -20,11 +20,9 @@ textarea {
     resize: vertical;
 }
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 
 .clearfix:before,
 .clearfix:after {
@@ -133,23 +131,22 @@ header {
     font-size: 10px;
 }
 
-
 /*1 page contents*/
 
 .container1 {
-      padding-top: 60px;
-      padding-left: 60px;
-      width: 960px;
-      margin: 0 auto;
+    padding-top: 60px;
+    padding-left: 60px;
+    width: 960px;
+    margin: 0 auto;
 
-  }
+}
 
 .container2 {
-     padding-top: 1500px;
-     padding-left: 60px;
-     width: 960px;
-     margin: 0 auto;
- }
+    padding-top: 1500px;
+    padding-left: 60px;
+    width: 960px;
+    margin: 0 auto;
+}
 
 .container3 {
     padding-top: 1500px;
@@ -171,6 +168,7 @@ header {
 .box1_3 {
     width: 590px;
 }
+
 .caption-00 {
     position: relative;
     float: right;
@@ -230,7 +228,6 @@ header {
     position: fixed;
 }
 
-
 .box2_3 {
     width: 312px;
     margin-left: 590px;
@@ -243,17 +240,22 @@ header {
 }
 
 .video1 {
-     margin-top: 32px;
-     width: 435px;
-     float: left;
- }
-
-.video2 {
-    margin-top: 45px;
+    margin-top: 65px;
     width: 435px;
     float: left;
 }
 
+.video2 {
+    margin-top: 56px;
+    width: 435px;
+    float: left;
+}
+
+.video3 {
+    margin-top: 20px;
+    width: 590px;
+    float: left;
+}
 
 /*이미지 왼쪽*/
 
@@ -265,10 +267,8 @@ header {
 }
 
 .image1_3 {
-    margin-top: 600px;
-    margin-left: 158px;
-    width: 280px;
-    height: 547px;
+    margin-left: 310px;
+
 }
 
 .image2 {
@@ -285,15 +285,27 @@ header {
     /*background-color: yellow;*/
 }
 
-.image-box1 {}
-.image-box2 {}
-.image-box3 {}
+.image-box1 {
+}
 
-.image-box1_2 {}
+.image-box2 {
+}
+
+.image-box3 {
+}
+
+.image-box1_2 {
+}
+
+.image-box1_3 {
+    padding-top: 30px;
+}
+
 .image-box2_2 {
     margin-top: 30px;
     text-align: justify;
 }
+
 .image-box3_2 {
     margin-top: 30px;
     text-align: justify;
@@ -362,19 +374,17 @@ header {
     margin-top: 30px;
 }
 
-
 .image-box4_2 {
     margin-top: 176px;
     height: 280px;
 }
 
-.image-box5_2 {}
+.image-box5_2 {
+}
 
 /*1page end*/
 
 /*2page start*/
-
-
 
 .clearfix:before,
 .clearfix:after {
