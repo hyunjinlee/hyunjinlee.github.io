@@ -99,7 +99,7 @@ header {
     width: 960px;
     height: 40px;
     margin: 0 auto;
-    /*background-color: red;*/
+    background-color: white;
 }
 
 .header-left {
@@ -129,14 +129,29 @@ header {
 
 .header-ul li a {
     font-family: 'Roboto', sans-serif;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 
 /*1 page contents*/
 
-.container {
-    padding-top: 60px;
+.container1 {
+      padding-top: 60px;
+      padding-left: 60px;
+      width: 960px;
+      margin: 0 auto;
+
+  }
+
+.container2 {
+     padding-top: 1500px;
+     padding-left: 60px;
+     width: 960px;
+     margin: 0 auto;
+ }
+
+.container3 {
+    padding-top: 1500px;
     padding-left: 60px;
     width: 960px;
     margin: 0 auto;
@@ -145,19 +160,22 @@ header {
 .box {
     position: relative;
     float: left;
-    height: 900px;
+    /*height: 1000px;*/
 }
 
 .box1 {
     width: 435px;
 }
 
+.box1_3 {
+    width: 590px;
+}
 .caption-00 {
     position: relative;
     float: right;
-    margin-top: 7px;
+    margin-top: 3px;
     font-family: 'Crimson Text', serif;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .caption-01 {
@@ -165,7 +183,8 @@ header {
     float: right;
     margin-top: 3px;
     font-family: 'Crimson Text', serif;
-    font-size: 8px;
+    font-size: 10px;
+
 }
 
 .caption-02 {
@@ -173,7 +192,7 @@ header {
     float: right;
     margin-top: 3px;
     font-family: 'Crimson Text', serif;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .caption-03 {
@@ -181,30 +200,39 @@ header {
     float: right;
     margin-top: 3px;
     font-family: 'Crimson Text', serif;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .caption-04 {
     position: relative;
     float: left;
-    margin-top: 3px;
+    margin-top: 5px;
     font-family: 'Crimson Text', serif;
-    font-size: 8px;
+    font-size: 10px;
     text-align: justify;
+
 }
 
 .caption-05 {
     position: relative;
     float: left;
-    margin-top: 3px;
+    margin-top: 5px;
     font-family: 'Crimson Text', serif;
-    font-size: 8px;
+    font-size: 10px;
     text-align: justify;
+
 }
 
 .box2 {
     width: 312px;
     margin-left: 435px;
+    position: fixed;
+}
+
+
+.box2_3 {
+    width: 312px;
+    margin-left: 590px;
     position: fixed;
 }
 
@@ -214,18 +242,37 @@ header {
 }
 
 .video1 {
-    margin-top: 32px;
+     margin-top: 32px;
+     width: 435px;
+     float: left;
+ }
+
+.video2 {
+    margin-top: 45px;
     width: 435px;
-    /*height: 245px;*/
-    /*background-color: yellow;*/
     float: left;
 }
+
 
 /*이미지 왼쪽*/
 
 .image1 {
     margin-top: 600px;
     margin-left: 158px;
+    width: 280px;
+    height: 547px;
+}
+
+.image1_3 {
+    margin-top: 600px;
+    margin-left: 158px;
+    width: 280px;
+    height: 547px;
+}
+
+.image2 {
+    margin-top: 600px;
+    /*margin-left: 158px;*/
     width: 280px;
     height: 547px;
 }
@@ -241,6 +288,16 @@ header {
 .image-box2 {}
 .image-box3 {}
 
+.image-box1_2 {}
+.image-box2_2 {
+    margin-top: 30px;
+    text-align: justify;
+}
+.image-box3_2 {
+    margin-top: 30px;
+    text-align: justify;
+    margin-bottom: 100px;
+}
 
 /*text part*/
 
@@ -262,7 +319,7 @@ header {
     margin-top: 40px;
     height: 10px;
     font-family: 'Crimson Text', serif;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .txt-0 {
@@ -278,8 +335,8 @@ header {
     width: 312px;
     height: 160px;
     font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    line-height: 150%;
+    font-size: 11.5px;
+    line-height: 180%;
     text-align: justify;
 }
 
@@ -290,9 +347,9 @@ header {
 }
 
 .b {
-    margin-top: 298px;
+    margin-top: 350px;
     width: 125px;
-    height: 161px;
+    height: 80px;
     /*background-color: green;*/
 }
 
@@ -304,8 +361,17 @@ header {
     margin-top: 30px;
 }
 
+
+.image-box4_2 {
+    margin-top: 176px;
+    height: 280px;
+}
+
+.image-box5_2 {}
+
 /*1page end*/
 
+/*2page start*/
 
 
 
