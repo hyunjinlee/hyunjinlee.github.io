@@ -179,7 +179,7 @@ p{
 
 }
 
-.container1_2 {
+.container1_3 {
     padding-top: 104px;
     /*margin-left: 500px;*/
     width: 300px;
@@ -204,6 +204,7 @@ p{
 .box {
     position: relative;
     float: left;
+
     /*height: 1000px;*/
 }
 
@@ -287,8 +288,9 @@ p{
 }
 
 .box3 {
-    width: 255px;
-    float: left;
+    width: 200px;
+    padding-left: 60px;
+    /*float: left;*/
     color: #444444;
 }
 
@@ -425,7 +427,7 @@ p{
 
 .b {
     margin-top: 350px;
-    width: 255px;
+    width: 200px;
     height: 80px;
     /*background-color: green;*/
 }
