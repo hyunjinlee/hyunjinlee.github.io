@@ -83,10 +83,7 @@ header {
 .container{
     float: left;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
-    display: block;
-    min-height: 1px;
+    margin: 0 auto;
 }
 
 .header-container {
@@ -98,6 +95,7 @@ header {
 }
 
 .header-left {
+
     margin-left: 8px;
     margin-right: 8px;
     width: 100px;
