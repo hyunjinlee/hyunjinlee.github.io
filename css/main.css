@@ -314,10 +314,7 @@ p{
 /*이미지 왼쪽*/
 
 .image1 {
-    margin-top: 600px;
-    margin-left: 163px;
-    width: 280px;
-    height: 547px;
+    margin-top: 660px;
 }
 
 .image2 {
@@ -335,10 +332,7 @@ p{
 }
 
 .a {
-    margin-bottom: 40px;
-    width: 280px;
-    height: 158px;
-    /*background-color: yellow;*/
+    margin-bottom: 60px;
 }
 
 .image-box1 {
@@ -436,7 +430,7 @@ p{
 }
 
 .image-box5 {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .image-box4_2 {
