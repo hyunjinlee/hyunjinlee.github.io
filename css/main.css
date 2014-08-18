@@ -164,7 +164,7 @@ p{
 
 .container1 {
     padding-top: 104px;
-    padding-left: 60px;
+    padding-left: 40px;
     width: 500px;
     margin: 0 auto;
 
@@ -173,7 +173,7 @@ p{
 .container1_2 {
     padding-top: 135px;
     /*margin-left: 500px;*/
-    width: 460px;
+    width: 480px;
     margin: 0 auto;
 
 }
@@ -274,7 +274,7 @@ p{
 }
 
 .box2 {
-    width: 460px;
+    width: 480px;
     /*margin-left: 435px;*/
     position: fixed;
     color: #444444;
