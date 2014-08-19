@@ -80,7 +80,8 @@ header {
     position: fixed;
     z-index: 999;
 }
-.container{
+
+.container {
     float: left;
     width: 100%;
     margin: 0 auto;
@@ -124,7 +125,7 @@ header {
 
 }
 
-p{
+p {
     display: block;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
@@ -153,7 +154,7 @@ p{
 }
 
 /*1 page contents*/
-.module{
+.module {
     width: 100%;
     float: left;
     overflow: hidden;
@@ -186,13 +187,14 @@ p{
     margin: 0 auto;
 
 }
-.container2 {
-     padding-top: 104px;
-     padding-left: 20px;
-     width: 190px;
-     margin: 0 auto;
 
- }
+.container2 {
+    padding-top: 104px;
+    padding-left: 20px;
+    width: 190px;
+    margin: 0 auto;
+
+}
 
 .container2_2 {
     padding-top: 104px;
@@ -246,7 +248,7 @@ p{
 .caption-02 {
     position: relative;
     margin-top: 5px;
-    width: 400px;
+    width: 190px;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
@@ -255,8 +257,8 @@ p{
 
 .caption-03 {
     position: relative;
+    width: 190px;
     margin-top: 5px;
-    width: 400px;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
@@ -266,7 +268,6 @@ p{
 .caption-04 {
     position: relative;
     margin-top: 5px;
-    width: 400px;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
@@ -276,11 +277,22 @@ p{
 
 .caption-05 {
     position: relative;
-    float: left;
+    width: 400px;
     margin-top: 5px;
+    text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
+    font-style: italic;
+
+}
+
+.caption-06 {
+    position: relative;
+    width: 400px;
+    margin-top: 5px;
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
     font-style: italic;
 
 }
@@ -335,6 +347,12 @@ p{
 /*이미지 왼쪽*/
 
 .image1 {
+    width: 420px;
+    /*margin-left: 190px;*/
+    margin-top: 630px;
+}
+
+.image1_2 {
     width: 190px;
     /*margin-left: 190px;*/
     margin-top: 770px;
@@ -456,7 +474,6 @@ p{
 .image-box5 {
     margin-top: 30px;
 }
-
 
 .image-box5_2 {
 }
