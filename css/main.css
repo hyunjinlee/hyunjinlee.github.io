@@ -87,7 +87,7 @@ header {
 }
 
 .header-container {
-    width: 100%;
+    width: 1350px;
     height: 80px;
     margin: 0 auto;
     padding-top: 40px;
@@ -315,7 +315,9 @@ p{
 /*이미지 왼쪽*/
 
 .image1 {
-    margin-top: 660px;
+    width: 420px;
+    margin-left: 190px;
+    margin-top: 770px;
 }
 
 .image2 {
@@ -420,7 +422,7 @@ p{
 /*이미지 오른쪽*/
 
 .b {
-    margin-top: 415px;
+    margin-top: 350px;
     width: 200px;
     height: 80px;
     /*background-color: green;*/
