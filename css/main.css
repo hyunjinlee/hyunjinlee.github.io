@@ -204,11 +204,36 @@ p {
 
 }
 
-.container3 {
-    padding-top: 1500px;
-    padding-left: 60px;
-    width: 960px;
+.container2_3 {
+    padding-top: 104px;
+    /*padding-left: 20px;*/
+    width: 420px;
     margin: 0 auto;
+
+}
+
+.container3 {
+    padding-top: 104px;
+    padding-left: 20px;
+    width: 190px;
+    margin: 0 auto;
+
+}
+
+.container3_2 {
+    padding-top: 104px;
+    /*padding-left: 20px;*/
+    width: 420px;
+    margin: 0 auto;
+
+}
+
+.container3_3 {
+    padding-top: 104px;
+    /*padding-left: 20px;*/
+    width: 610px;
+    margin: 0 auto;
+
 }
 
 .box {
@@ -335,13 +360,14 @@ p {
     margin-top: 100px;
     width: 100%;
     float: left;
-    margin-bottom: 540px;
+    margin-bottom: 100px;
 }
 
 .video3 {
     margin-top: 20px;
     width: 590px;
     float: left;
+    margin-bottom: 100px;
 }
 
 /*이미지 왼쪽*/
@@ -349,7 +375,7 @@ p {
 .image1 {
     width: 420px;
     /*margin-left: 190px;*/
-    margin-top: 630px;
+    margin-top: 130px;
 }
 
 .image1_2 {
@@ -366,14 +392,12 @@ p {
 }
 
 .image3 {
-    margin-top: 400px;
-    margin-left: 310px;
-    width: 280px;
-    height: 700px;
+    width: 400px;
+
 }
 
 .a {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .image-box1 {
@@ -386,7 +410,32 @@ p {
 }
 
 .image-box1_2 {
-    margin-top: -130px;
+margin-top: -333px;
+}
+
+.image-box01_2 {
+margin-top: 79px;
+}
+.image-box02_2 {
+    margin-top: 2px;
+}
+.image-box03_2 {
+    margin-top: 2px;
+}
+.image-box04_2 {
+    margin-top: 2px;
+}
+.image-box05_2 {
+    margin-top: 30px;
+}
+.image-box06_2 {
+    margin-top: 2px;
+}
+.image-box07_2 {
+    margin-top: 2px;
+}
+.image-box08_2 {
+    margin-top: 2px;
 }
 
 .image-box2_2 {
@@ -401,19 +450,24 @@ p {
 .image-box4_2 {
 }
 
+.image-box0_3 {
+
+}
+
 .image-box1_3 {
-    margin-top: 20px;
-    text-align: justify;
+
 }
 
 .image-box2_3 {
-    margin-top: 20px;
-    text-align: justify;
+
 }
 
 .image-box3_3 {
-    margin-top: 20px;
-    text-align: justify;
+
+}
+
+.image-box4_3 {
+
 }
 
 /*text part*/
