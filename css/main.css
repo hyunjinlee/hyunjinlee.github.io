@@ -160,6 +160,7 @@ p {
     overflow: hidden;
     padding-top: 0px;
     padding-bottom: 16px;
+    margin-bottom: 94px;
     position: relative;
 }
 
@@ -197,7 +198,7 @@ p {
 }
 
 .container2_2 {
-    padding-top: 104px;
+    padding-top: 140px;
     /*padding-left: 20px;*/
     width: 420px;
     margin: 0 auto;
@@ -230,7 +231,31 @@ p {
 
 .container3_3 {
     padding-top: 104px;
+    padding-left: 20px;
+    width: 610px;
+    margin: 0 auto;
+
+}
+
+.container4 {
+    padding-top: 104px;
+    padding-left: 20px;
+    width: 190px;
+    margin: 0 auto;
+
+}
+
+.container4_2 {
+    padding-top: 104px;
     /*padding-left: 20px;*/
+    width: 420px;
+    margin: 0 auto;
+
+}
+
+.container4_3 {
+    padding-top: 104px;
+    padding-left: 20px;
     width: 610px;
     margin: 0 auto;
 
@@ -322,18 +347,33 @@ p {
 
 }
 
+.moving_box {
+    position: absolute;
+}
+
+.moving_box.fixed {
+    position: fixed;
+}
+
+.moving_2.fixed {
+    /*left: 235px;*/
+    top: 140px;
+}
+
+.moving_3.fixed {
+    /*left: 235px;*/
+    top: 140px;
+}
+
 .box2 {
     margin-left: 20px;
     width: 400px;
-    /*margin-left: 435px;*/
-    position: fixed;
     color: #444444;
 }
 
 .box2_3 {
     width: 312px;
     margin-left: 590px;
-    position: fixed;
 }
 
 .box3 {
@@ -344,7 +384,7 @@ p {
 }
 
 .box3 {
-    width: 630px;
+    width: 400px;
     padding-left: 20px;
     /*float: left;*/
     color: #444444;
