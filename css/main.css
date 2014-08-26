@@ -238,7 +238,7 @@ p {
 }
 
 .container4 {
-    padding-top: 104px;
+    padding-top: 123px;
     padding-left: 20px;
     width: 190px;
     margin: 0 auto;
@@ -248,16 +248,16 @@ p {
 .container4_2 {
     padding-top: 104px;
     /*padding-left: 20px;*/
-    width: 420px;
+    width: 630px;
     margin: 0 auto;
 
 }
 
 .container4_3 {
-    padding-top: 104px;
     padding-left: 20px;
-    width: 610px;
+    width: 448px;
     margin: 0 auto;
+    float: right;
 
 }
 
@@ -274,6 +274,10 @@ p {
 
 .box1_3 {
     width: 590px;
+}
+
+.box1_4 {
+    width: 630px;
 }
 
 .caption-00 {
@@ -365,6 +369,11 @@ p {
     top: 140px;
 }
 
+.moving_4.fixed {
+    /*left: 235px;*/
+    top: 140px;
+}
+
 .box2 {
     margin-left: 20px;
     width: 400px;
@@ -390,6 +399,13 @@ p {
     color: #444444;
 }
 
+.box4 {
+    width: 400px;
+    padding-left: 20px;
+    /*float: left;*/
+    color: #444444;
+}
+
 .video1 {
     margin-top: 115px;
     width: 100%;
@@ -407,6 +423,13 @@ p {
     margin-top: 20px;
     width: 590px;
     float: left;
+    margin-bottom: 100px;
+}
+
+.video4 {
+    margin-top: 20px;
+    width: 420px;
+    float: right;
     margin-bottom: 100px;
 }
 
@@ -436,6 +459,11 @@ p {
 
 }
 
+.image4 {
+    width: 190px;
+
+}
+
 .a {
     margin-bottom: 80px;
 }
@@ -450,30 +478,37 @@ p {
 }
 
 .image-box1_2 {
-margin-top: -333px;
+    margin-top: -333px;
 }
 
 .image-box01_2 {
-margin-top: 79px;
+    margin-top: 79px;
 }
+
 .image-box02_2 {
     margin-top: 2px;
 }
+
 .image-box03_2 {
     margin-top: 2px;
 }
+
 .image-box04_2 {
     margin-top: 2px;
 }
+
 .image-box05_2 {
     margin-top: 30px;
 }
+
 .image-box06_2 {
     margin-top: 2px;
 }
+
 .image-box07_2 {
     margin-top: 2px;
 }
+
 .image-box08_2 {
     margin-top: 2px;
 }
@@ -508,6 +543,29 @@ margin-top: 79px;
 
 .image-box4_3 {
 
+}
+
+.image-box1_4 {
+
+}
+
+.image-box2_4 {
+    margin-left: 5px;
+}
+
+.image-box3_4 {
+
+}
+
+.image-box4_4 {
+    margin-left: 5px;
+}
+
+.image-box5_4 {
+    margin-top: 10px;
+}
+.image-box6_4 {
+    margin-top: 10px;
 }
 
 /*text part*/
