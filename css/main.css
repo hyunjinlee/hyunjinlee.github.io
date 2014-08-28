@@ -293,6 +293,29 @@ p {
     float: left;
 
 }
+.container7 {
+     padding-top: 100px;
+     width: 610px;
+     margin: 0 auto;
+     float: left;
+
+ }
+.container7_1 {
+    padding-top: 100px;
+    /*padding-right: 27px;*/
+    width: 420px;
+    margin: 0 auto;
+    float: left;
+
+}
+.container7_2 {
+    padding-top: 100px;
+    /*padding-right: 27px;*/
+    width: 190px;
+    margin: 0 auto;
+    float: left;
+
+}
 
 .box {
     position: relative;
@@ -417,6 +440,11 @@ p {
     top: 140px;
 }
 
+.moving_7.fixed {
+    /*left: 235px;*/
+    top: 140px;
+}
+
 .box2 {
     margin-left: 20px;
     width: 400px;
@@ -452,6 +480,13 @@ p {
 .box6 {
     width: 610px;
     /*padding-left: 20px;*/
+    /*float: left;*/
+    color: #444444;
+}
+
+.box7 {
+    width: 400px;
+    padding-left: 20px;
     /*float: left;*/
     color: #444444;
 }
@@ -527,6 +562,15 @@ p {
 .image6 {
     width: 610px;
     padding-left: 20px;
+}
+
+.image7 {
+    width: 610px;
+}
+
+.image7_1 {
+    padding-left: 20px;
+    width: 190px;
 }
 
 .a {
@@ -655,6 +699,10 @@ p {
 
 }
 
+.image-box0_7 {
+
+}
+
 /*text part*/
 
 .title {
@@ -708,6 +756,19 @@ p {
 }
 
 .txt-3 {
+    width: 100%;
+    height: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+
+
+}
+
+.txt-4 {
+    margin-top: -40px;
     width: 100%;
     height: 160px;
     font-family: 'Roboto', sans-serif;
