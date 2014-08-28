@@ -285,6 +285,15 @@ p {
     float: right;
 
 }
+.container6 {
+    padding-top: 100px;
+    /*padding-right: 27px;*/
+    width: 610px;
+    margin: 0 auto;
+    float: left;
+
+}
+
 .box {
     position: relative;
     float: left;
@@ -403,6 +412,11 @@ p {
     top: 140px;
 }
 
+.moving_6.fixed {
+    /*left: 235px;*/
+    top: 140px;
+}
+
 .box2 {
     margin-left: 20px;
     width: 400px;
@@ -435,6 +449,12 @@ p {
     color: #444444;
 }
 
+.box6 {
+    width: 610px;
+    /*padding-left: 20px;*/
+    /*float: left;*/
+    color: #444444;
+}
 
 .video1 {
     margin-top: 115px;
@@ -500,7 +520,13 @@ p {
 }
 
 .image5_1 {
+    margin-top: 250px;
     width: 190px;
+}
+
+.image6 {
+    width: 610px;
+    padding-left: 20px;
 }
 
 .a {
@@ -619,6 +645,16 @@ p {
 
 }
 
+.image-box0_6 {
+
+}
+.image-box1_6 {
+
+ }
+.image-box2_6 {
+
+}
+
 /*text part*/
 
 .title {
@@ -631,7 +667,6 @@ p {
 }
 
 .txt {
-
     width: 100%;
     height: 200px;
 }
@@ -665,11 +700,20 @@ p {
 .txt-2 {
     margin-top: 40px;
     width: 100%;
-    height: 160px;
+    height: 120px;
     font-family: 'Roboto', sans-serif;
     font-size: 11.5px;
     line-height: 180%;
     text-align: justify;
+}
+
+.txt-3 {
+    width: 100%;
+    height: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.5px;
+    text-decoration: underline;
+
 }
 
 /*이미지 오른쪽*/
