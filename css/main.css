@@ -277,6 +277,7 @@ p {
     float: left;
 
 }
+
 .container5_3 {
     padding-top: 500px;
     padding-right: 27px;
@@ -285,6 +286,7 @@ p {
     float: right;
 
 }
+
 .container6 {
     padding-top: 100px;
     /*padding-right: 27px;*/
@@ -293,13 +295,15 @@ p {
     float: left;
 
 }
-.container7 {
-     padding-top: 100px;
-     width: 610px;
-     margin: 0 auto;
-     float: left;
 
- }
+.container7 {
+    padding-top: 100px;
+    width: 610px;
+    margin: 0 auto;
+    float: left;
+
+}
+
 .container7_1 {
     padding-top: 100px;
     /*padding-right: 27px;*/
@@ -308,6 +312,7 @@ p {
     float: left;
 
 }
+
 .container7_2 {
     padding-top: 100px;
     /*padding-right: 27px;*/
@@ -407,6 +412,17 @@ p {
 
 }
 
+.caption-07 {
+    float: right;
+    position: relative;
+    width: 420px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+
+}
+
 .moving_box {
     position: absolute;
 }
@@ -491,6 +507,13 @@ p {
     color: #444444;
 }
 
+.box8 {
+    width: 610px;
+    padding-left: 20px;
+    /*float: left;*/
+    color: #444444;
+}
+
 .video1 {
     margin-top: 115px;
     width: 100%;
@@ -530,6 +553,12 @@ p {
     width: 190px;
     /*margin-left: 190px;*/
     margin-top: 770px;
+}
+
+.image8 {
+    width: 190px;
+    /*margin-left: 190px;*/
+    margin-top: 450px;
 }
 
 .image2 {
@@ -681,6 +710,7 @@ p {
 .image-box5_4 {
     margin-top: 10px;
 }
+
 .image-box6_4 {
     margin-top: 10px;
 }
@@ -692,14 +722,53 @@ p {
 .image-box0_6 {
 
 }
+
 .image-box1_6 {
 
- }
+}
+
 .image-box2_6 {
 
 }
 
 .image-box0_7 {
+
+}
+
+.image-box1_7 {
+    padding-top: 30px;
+    float: right;
+}
+
+.image-box2_7 {
+    padding-top: 10px;
+    float: right;
+}
+
+.image-box3_7 {
+    padding-top: 70px;
+    float: right;
+}
+
+.image-box4_7 {
+    padding-top: 300px;
+    float: right;
+}
+
+.image-box5_7 {
+    padding-top: 20px;
+    float: right;
+}
+
+.image-box01_8 {
+    margin-top: -70px;
+}
+
+.image-box02_8 {
+    padding-top: 100px;
+}
+
+.image-box03_8 {
 
 }
 
@@ -728,22 +797,21 @@ p {
 
 .txt-0 {
 
-     width: 100%;
-     height: 20px;
-     font-family: 'Crimson Text', serif;
-     font-size: 20px;
- }
-
+    width: 100%;
+    height: 20px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
 
 .txt-1 {
-     margin-top: 20px;
-     width: 100%;
-     height: 160px;
-     font-family: 'Roboto', sans-serif;
-     font-size: 11.5px;
-     line-height: 180%;
-     text-align: justify;
- }
+    margin-top: 20px;
+    width: 100%;
+    height: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.5px;
+    line-height: 180%;
+    text-align: justify;
+}
 
 .txt-2 {
     margin-top: 40px;
@@ -764,7 +832,6 @@ p {
     font-weight: bold;
     text-decoration: underline;
 
-
 }
 
 .txt-4 {
@@ -776,7 +843,6 @@ p {
     font-style: italic;
     font-weight: bold;
     text-decoration: underline;
-
 
 }
 
