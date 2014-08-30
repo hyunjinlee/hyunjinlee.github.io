@@ -116,6 +116,9 @@ header {
 .ainavi a.activeSlide {
     color: #222222;
     text-decoration: none;
+}
+
+.ainavi a.activeSlide.hover {
     border-bottom: 4px solid #000;
 }
 
@@ -132,6 +135,7 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
+
 
 .ainavi {
     font-family: 'Crimson Text', serif;
@@ -152,6 +156,19 @@ p {
     padding: 0px;
     width: 100%;
 }
+
+.sns {
+    font-family: 'Crimson Text', serif;
+    font-size: 10.5px;
+    font-weight: bold;
+    line-height: 18px;
+    padding-top: 4px;
+    margin: 0px;
+    color: black;
+    width: 33%;
+    letter-spacing: 1px;
+}
+
 
 /*1 page contents*/
 .module {
@@ -322,6 +339,16 @@ p {
 
 }
 
+.container99 {
+    padding-top: 100px;
+    padding-right: 20px;
+    width: 420px;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+
+}
+
 .box {
     position: relative;
     float: left;
@@ -431,6 +458,10 @@ p {
     position: fixed;
 }
 
+.moving_1.fixed {
+    /*left: 235px;*/
+    top: 140px;
+}
 .moving_2.fixed {
     /*left: 235px;*/
     top: 140px;
@@ -508,11 +539,24 @@ p {
 }
 
 .box8 {
-    width: 610px;
+      width: 610px;
+      padding-left: 20px;
+      /*float: left;*/
+      color: #444444;
+  }
+
+.box99 {
+    width: 400px;
     padding-left: 20px;
-    /*float: left;*/
     color: #444444;
 }
+
+.box99_1 {
+    padding-top: 100px;
+    width: 400px;
+    color: #444444;
+}
+
 
 .video1 {
     margin-top: 115px;
@@ -604,6 +648,11 @@ p {
 .image9 {
     width: 190px;
 }
+.image9_1 {
+    padding: 20px;
+    width: 190px;
+}
+
 .a {
     margin-bottom: 80px;
 }
@@ -794,6 +843,28 @@ p {
 
 }
 
+.image-box00_99 {
+    padding-top: 300px;
+    float: left;
+}
+
+.image-box01_99 {
+    padding-top: 100px;
+    float: left;
+}
+
+.image-box02_99 {
+    padding-top: 350px;
+    padding-left: 20px;
+    float: left;
+
+}
+.image-box03_99 {
+
+    padding-left: 20px;
+    float: left;
+
+}
 
 /*text part*/
 
@@ -808,7 +879,7 @@ p {
 
 .txt {
     width: 100%;
-    height: 200px;
+
 }
 
 .category {
@@ -868,6 +939,27 @@ p {
     text-decoration: underline;
 
 }
+
+.txt-99 {
+    margin-top: 40px;
+    width: 100%;
+    height: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.5px;
+    line-height: 180%;
+    text-align: justify;
+}
+
+.txt-99_1 {
+    margin-top: 150px;
+    width: 100%;
+    height: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.5px;
+    line-height: 180%;
+    text-align: justify;
+}
+
 
 /*이미지 오른쪽*/
 
