@@ -864,7 +864,7 @@
         for (var i = 0; i < modules.size(); i++) {
             var module = $(modules[i]);
             var movingBox = module.find('.moving_box');
-            var movingBoxHeight = movingBox.height() - 100;
+            var movingBoxHeight = movingBox.height() +10;
             var startOffsetY = module.position().top;
             var endOffsetY = module.height() + startOffsetY - movingBoxHeight;
 
