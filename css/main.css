@@ -49,6 +49,10 @@ a {
     color: #444444;
 }
 
+.button{
+    padding: 23px;
+}
+
 /*header*/
 .content {
     float: left;
@@ -128,6 +132,10 @@ header {
 
 }
 
+b {
+
+}
+
 p {
     display: block;
     -webkit-margin-before: 1em;
@@ -135,7 +143,6 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
-
 
 .ainavi {
     font-family: 'Crimson Text', serif;
@@ -156,19 +163,6 @@ p {
     padding: 0px;
     width: 100%;
 }
-
-.sns {
-    font-family: 'Crimson Text', serif;
-    font-size: 10.5px;
-    font-weight: bold;
-    line-height: 18px;
-    padding-top: 4px;
-    margin: 0px;
-    color: black;
-    width: 33%;
-    letter-spacing: 1px;
-}
-
 
 /*1 page contents*/
 .module {
@@ -349,6 +343,16 @@ p {
 
 }
 
+.container99_1 {
+    padding-top: 200px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    width: 420px;
+    float: left;
+    text-align: center;
+
+}
+
 .box {
     position: relative;
     float: left;
@@ -462,6 +466,7 @@ p {
     /*left: 235px;*/
     top: 140px;
 }
+
 .moving_2.fixed {
     /*left: 235px;*/
     top: 140px;
@@ -539,11 +544,11 @@ p {
 }
 
 .box8 {
-      width: 610px;
-      padding-left: 20px;
-      /*float: left;*/
-      color: #444444;
-  }
+    width: 610px;
+    padding-left: 20px;
+    /*float: left;*/
+    color: #444444;
+}
 
 .box99 {
     width: 400px;
@@ -556,7 +561,6 @@ p {
     width: 400px;
     color: #444444;
 }
-
 
 .video1 {
     margin-top: 115px;
@@ -645,9 +649,11 @@ p {
     padding-left: 20px;
     width: 190px;
 }
+
 .image9 {
     width: 190px;
 }
+
 .image9_1 {
     padding: 20px;
     width: 190px;
@@ -815,7 +821,6 @@ p {
     margin-top: -70px;
 }
 
-
 .image-box02_8 {
     padding-top: 100px;
 }
@@ -839,6 +844,7 @@ p {
 .image-box02_9 {
     padding-top: 100px;
 }
+
 .image-box03_9 {
 
 }
@@ -859,6 +865,7 @@ p {
     float: left;
 
 }
+
 .image-box03_99 {
 
     padding-left: 20px;
@@ -941,34 +948,45 @@ p {
 }
 
 .txt-99 {
-    margin-top: 40px;
     width: 100%;
-    height: 120px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 11.5px;
-    line-height: 180%;
-    text-align: justify;
+   margin-top:70px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    /*text-align: justify;*/
 }
 
 .txt-99_1 {
-    margin-top: 150px;
-    width: 100%;
+    margin-top: 30px;
     height: 120px;
     font-family: 'Roboto', sans-serif;
     font-size: 11.5px;
     line-height: 180%;
-    text-align: justify;
+
+}
+.box_sns{
+    margin-top: 150px;
 }
 
+.sns{
+    float: left;
+    width:100%;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+
+
+}
+
+.sns_1 {
+    line-height: 180%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.5px;
+    text-align: justify;
+    margin-top:30px;
+}
 
 /*이미지 오른쪽*/
 
-.b {
-    margin-top: 350px;
-    width: 200px;
-    /*height: 80px;*/
-    /*background-color: green;*/
-}
+
 
 .image-box4 {
     /*margin-top: 200px;*/
