@@ -623,7 +623,7 @@ p {
 }
 
 .box99_1 {
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     width: 400px;
     color: #444444;
 }
@@ -875,6 +875,11 @@ p {
     padding-top: 30px;
 }
 
+.image-box0_8 {
+    width: 190px;
+    padding-top: 30px;
+}
+
 .image-box1_7 {
     width: 420px;
     padding-top: 30px;
@@ -911,7 +916,7 @@ p {
 
 .image-box7_7 {
     width:190px;
-    padding-top: 20px;
+    padding-top: 5px;
     float: right;
 }
 
@@ -991,8 +996,16 @@ p {
     margin-top: 60px;
     height: 65px;
     font-family: 'Crimson Text', serif;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 70%;
+}
+
+.txt-00 {
+    margin-top:-50px;
+    width: 100%;
+    height: 40px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
 }
 
 .txt-0 {
@@ -1003,10 +1016,18 @@ p {
     font-size: 20px;
 }
 
-.txt-1 {
-    margin-top: 20px;
+.txt-01 {
+    margin-top: 10px;
     width: 100%;
-    height: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.5px;
+    line-height: 180%;
+    text-align: justify;
+}
+
+.txt-1 {
+    margin-top: -8px;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
     font-size: 11.5px;
     line-height: 180%;
@@ -1016,8 +1037,7 @@ p {
 .txt-2 {
     width: 100%;
     margin-top:-20px;
-    /*font-family: 'Roboto', sans-serif;*/
-    font-family: 'Nanum Gothic', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 11.5px;
     line-height: 180%;
     text-align: justify;
@@ -1025,17 +1045,15 @@ p {
 
 .txt-3 {
     width: 100%;
-    height: 160px;
+    margin-top:20px;
     font-family: 'Roboto', sans-serif;
-    font-size: 11px;
-    font-style: italic;
-    font-weight: bold;
-    text-decoration: underline;
-
+    font-size: 11.5px;
+    line-height: 180%;
+    text-align: justify;
 }
 
 .txt-4 {
-    margin-top: -40px;
+    margin-top: 10px;
     width: 100%;
     height: 160px;
     font-family: 'Roboto', sans-serif;
