@@ -157,10 +157,11 @@ header {
 .ainavi a.activeSlide {
     color: #222222;
     text-decoration: none;
-}
+    border-bottom: 1px solid #f0f0f0;}
+
 
 .ainavi a.activeSlide.hover {
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid #444444;
 }
 
 .ainavi a {
@@ -210,6 +211,14 @@ p {
     padding-bottom: 16px;
     margin-bottom: 94px;
     position: relative;
+}
+
+
+.container0 {
+    padding-top: 104px;
+    width: 610px;
+    margin: 0 auto;
+
 }
 
 .container1 {
@@ -286,9 +295,9 @@ p {
 }
 
 .container4 {
-    padding-top: 140px;
+    padding-top: 104px;
     padding-left: 20px;
-    width: 190px;
+    width: 400px;
     margin: 0 auto;
 
 }
@@ -296,7 +305,7 @@ p {
 .container4_2 {
     padding-top: 140px;
     padding-bottom: 150px;
-    /*padding-left: 20px;*/
+    padding-left: 20px;
     width: 630px;
     margin: 0 auto;
 
@@ -304,9 +313,8 @@ p {
 
 .container4_3 {
     padding-left: 20px;
-    width: 448px;
+    width: 190px;
     margin: 0 auto;
-    float: right;
 
 }
 
@@ -345,7 +353,7 @@ p {
 }
 
 .container7 {
-    padding-top: 100px;
+    padding-top: 130px;
     width: 610px;
     margin: 0 auto;
     float: left;
@@ -353,7 +361,7 @@ p {
 }
 
 .container7_1 {
-    padding-top: 100px;
+    padding-top: 130px;
     /*padding-right: 27px;*/
     width: 420px;
     margin: 0 auto;
@@ -377,7 +385,7 @@ p {
 
 }
 .container99 {
-    padding-top: 100px;
+    padding-top: 110px;
     width: 420px;
     margin: 0 auto;
     float: left;
@@ -402,6 +410,10 @@ p {
     /*height: 1000px;*/
 }
 
+.box0 {
+    width: 100%;
+}
+
 .box1 {
     width: 100%;
 }
@@ -416,7 +428,7 @@ p {
 
 .caption-00 {
     position: relative;
-    /*float: right;*/
+    float: right;
     margin-top: 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
@@ -465,7 +477,6 @@ p {
 
 .caption-05 {
     position: relative;
-    width: 400px;
     margin-top: 5px;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
@@ -551,15 +562,19 @@ p {
 }
 
 .box3 {
-    width: 400px;
+
     padding-left: 20px;
-    /*float: left;*/
+    color: #444444;
+}
+
+.box3_1 {
+    width:400px;
+    padding-left: 20px;
     color: #444444;
 }
 
 .box4 {
-    width: 400px;
-    padding-left: 20px;
+    width:400px;
     /*float: left;*/
     color: #444444;
 }
@@ -572,9 +587,9 @@ p {
 }
 
 .box6 {
-    width: 610px;
-    /*padding-left: 20px;*/
-    /*float: left;*/
+    width: 590px;
+    padding-left: 20px;
+    float: left;
     color: #444444;
 }
 
@@ -586,6 +601,13 @@ p {
 }
 
 .box8 {
+    width: 610px;
+    /*padding-left: 20px;*/
+    /*float: left;*/
+    color: #444444;
+}
+
+.box9 {
     width: 610px;
     padding-left: 20px;
     /*float: left;*/
@@ -632,6 +654,12 @@ p {
 }
 
 /*이미지 왼쪽*/
+
+
+.image0 {
+    width: 610px;
+    margin-top: 130px;
+}
 
 .image1 {
     width: 420px;
@@ -705,7 +733,16 @@ p {
     margin-bottom: 80px;
 }
 
+
+.image-box00_1 {
+    margin-top: 79px;
+}
+
+.image-box0_0 {
+}
+
 .image-box1 {
+    margin-top: 200px
 }
 
 .image-box2 {
@@ -751,7 +788,8 @@ p {
 }
 
 .image-box2_2 {
-    margin-top: 30px;
+    width: 610px;
+    margin-top: 10px;
     /*text-align: justify;*/
 }
 
@@ -791,7 +829,7 @@ p {
 }
 
 .image-box2_4 {
-
+    margin-top: 150px;
 }
 
 .image-box2_5 {
@@ -831,20 +869,24 @@ p {
 }
 
 .image-box0_7 {
-
+    width: 610px;
+    padding-top: 30px;
 }
 
 .image-box1_7 {
+    width: 420px;
     padding-top: 30px;
     float: right;
 }
 
 .image-box2_7 {
+    width: 420px;
     padding-top: 10px;
     float: right;
 }
 
 .image-box3_7 {
+    width:610px;
     padding-top: 70px;
     float: right;
 }
@@ -855,6 +897,18 @@ p {
 }
 
 .image-box5_7 {
+    padding-top: 20px;
+    float: right;
+}
+
+.image-box6_7 {
+    width:190px;
+    padding-top: 250px;
+    float: right;
+}
+
+.image-box7_7 {
+    width:190px;
     padding-top: 20px;
     float: right;
 }
@@ -888,7 +942,7 @@ p {
 }
 
 .image-box03_9 {
-
+    width: 610px;
 }
 
 .image-box00_99 {
@@ -957,10 +1011,11 @@ p {
 }
 
 .txt-2 {
-    margin-top: 40px;
+    margin-top: 30px;
     width: 100%;
     height: 120px;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Nanum Gothic', serif;
     font-size: 11.5px;
     line-height: 180%;
     text-align: justify;
