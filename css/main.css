@@ -987,15 +987,16 @@ p {
 
 .category {
     margin-top: 60px;
-    height: 10px;
+    height: 65px;
     font-family: 'Crimson Text', serif;
     font-size: 10px;
+    line-height: 70%;
 }
 
 .txt-0 {
-
+    margin-top:20px;
     width: 100%;
-    height: 20px;
+    height: 40px;
     font-family: 'Crimson Text', serif;
     font-size: 20px;
 }
@@ -1011,9 +1012,8 @@ p {
 }
 
 .txt-2 {
-    margin-top: 30px;
     width: 100%;
-    height: 120px;
+    margin-top:-20px;
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Nanum Gothic', serif;
     font-size: 11.5px;
