@@ -140,7 +140,7 @@ header {
 
     margin-left: 8px;
     margin-right: 8px;
-    width: 100px;
+    width: 140px;
     text-align: center;
 }
 
@@ -789,6 +789,11 @@ p {
     margin-top: 2px;
 }
 
+.image-box08_3 {
+    width: 610px;
+    margin-top: 10px;
+}
+
 .image-box2_2 {
     width: 610px;
     margin-top: 10px;
@@ -803,7 +808,7 @@ p {
 }
 
 .image-box0_3 {
-
+width: 400px;
 }
 
 .image-box1_3 {
@@ -904,6 +909,7 @@ p {
 }
 
 .image-box5_7 {
+    width: 190px;
     padding-top: 20px;
     float: right;
 }
@@ -921,15 +927,17 @@ p {
 }
 
 .image-box01_8 {
+    width: 190px;
     margin-top: -70px;
 }
 
 .image-box02_8 {
+    width: 190px;
     padding-top: 100px;
 }
 
 .image-box03_8 {
-
+width: 610px;
 }
 
 .image-box01_9_0 {
@@ -1017,7 +1025,7 @@ p {
 }
 
 .txt-01 {
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
     font-size: 11.5px;
@@ -1066,7 +1074,7 @@ p {
 
 .txt-99 {
     width: 100%;
-   margin-top:70px;
+   margin-top:100px;
     font-family: 'Crimson Text', serif;
     font-size: 20px;
     /*text-align: justify;*/
@@ -1081,7 +1089,7 @@ p {
 
 }
 .box_sns{
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 .sns{
@@ -1089,7 +1097,7 @@ p {
     width:100%;
     font-family: 'Crimson Text', serif;
     font-size: 20px;
-
+    margin-bottom: 100px;
 
 }
 
