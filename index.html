@@ -37,17 +37,17 @@
                 <div class="header-right">
                     <p class="ainavi">
 
-                        <a href="#RECENTLY" class="activeSlide">RECENTLY</a>
+                        <a href="#RECENTLY" class="activeSlide recently">RECENTLY</a>
 
-                        <a href="#INSTALLATION" class="activeSlide">INSTALLATION</a>
+                        <a href="#INSTALLATION" class="activeSlide installation">INSTALLATION</a>
 
-                        <a href="#MOTIONGRAPHIC" class="activeSlide">MOTIONGRAPHIC</a>
+                        <a href="#MOTIONGRAPHIC" class="activeSlide motiongraphic">MOTIONGRAPHIC</a>
 
-                        <a href="#WEB/MOBILE" class="activeSlide">WEB/MOBILE</a>
+                        <a href="#WEB" class="activeSlide web">WEB/MOBILE</a>
 
-                        <a href="#PRINT" class="activeSlide">PRINT</a>
+                        <a href="#PRINT" class="activeSlide print">PRINT</a>
 
-                        <a href="#ABOUT" class="activeSlide">ABOUT</a>
+                        <a href="#ABOUT" class="activeSlide about">ABOUT</a>
 
                     </p>
                 </div>
@@ -642,8 +642,8 @@
 <!--2page contents end-->
 
 <!--1page contents-->
-<div class="module">
-    <div class="container container1" id="MOTIONGRAPHIC">
+<div class="module" id="MOTIONGRAPHIC">
+    <div class="container container1">
         <div class="box fade-in box1">
             <!--<div class="video1">-->
             <div class="video1">
@@ -849,8 +849,8 @@
 <!--4page contents end-->
 
 <!--web design2 page contents-->
-<div class="module">
-    <div class="container container5" id="WEB/MOBILE">
+<div class="module" id="WEB">
+    <div class="container container5">
         <div class="fade-in image5">
             <div class="a image-box0_5">
                 <a href="img/image-box10_1.png">
@@ -887,7 +887,10 @@
     <div class="container container5">
         <div class="fade-in image5">
             <div class="a image-box0_5">
-                <a href=".">
+                <a href="img/image-box09_0.png">
+                    <img class="image-box0_5" src="img/image-box09_0.png">
+                </a>
+                <a href="img/image-box09_1.png">
                     <img class="image-box0_5" src="img/image-box09_1.png">
                 </a>
 
@@ -918,8 +921,8 @@
 
 
 <!--5page contents-->
-<div class="module">
-    <div class="container container5" id="PRINT">
+<div class="module" id="PRINT">
+    <div class="container container5">
         <div class="fade-in image5">
             <div class="a image-box0_5">
                 <a href=".">
@@ -970,8 +973,8 @@
 <!--5page contents end-->
 
 <!--about-->
-<div class="module">
-    <div class="container container99_0" id="ABOUT">
+<div class="module" id="ABOUT">
+    <div class="container container99_0">
         <div class="fade-in image3">
             <div class="a image-box00_99">
                 <a href=".">
@@ -1129,23 +1132,41 @@
     });
 
 
-    $('.RECENTLY').click(function(e) {
-        var container = $('.container.container77');
+    $('.recently').click(function(e) {
+        var container = $('#RECENTLY');
         var position = container.position();
         console.log(position.top);
-        $('body').animate({scrollTop: position.top}, 150);
+        $('body').animate({scrollTop: position.top}, 400);
     });
-    $('.INSTALLATION').click(function(e) {
-        var container = $('.container.container00');
+    $('.installation').click(function(e) {
+        var container = $('#INSTALLATION');
         var position = container.position();
         console.log(position.top);
-        $('body').animate({scrollTop: position.top}, 150);
+        $('body').animate({scrollTop: position.top}, 400);
     });
-    $('.MOTIONGRAPHIC').click(function(e) {
-        var container = $('.container.container1');
+    $('.motiongraphic').click(function(e) {
+        var container = $('#MOTIONGRAPHIC');
         var position = container.position();
         console.log(position.top);
-        $('body').animate({scrollTop: position.top}, 150);
+        $('body').animate({scrollTop: position.top}, 400);
+    });
+    $('.web').click(function(e) {
+        var container = $('#WEB');
+        var position = container.position();
+        console.log(position.top);
+        $('body').animate({scrollTop: position.top}, 400);
+    });
+    $('.print').click(function(e) {
+        var container = $('#PRINT');
+        var position = container.position();
+        console.log(position.top);
+        $('body').animate({scrollTop: position.top}, 400);
+    });
+    $('.about').click(function(e) {
+        var container = $('#ABOUT');
+        var position = container.position();
+        console.log(position.top);
+        $('body').animate({scrollTop: position.top}, 400);
     });
 
 
