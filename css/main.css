@@ -222,6 +222,14 @@ p {
 
 }
 
+.container00 {
+    padding-left: 20px;
+    padding-top: 104px;
+    width: 610px;
+    margin: 0 auto;
+
+}
+
 .container1 {
     padding-top: 104px;
     padding-left: 20px;
@@ -321,6 +329,7 @@ p {
 
 .container5 {
     /*padding-left: 20px;*/
+    padding-top: 130px;
     width: 820px;
     margin: 0 auto;
     float: left;
@@ -344,6 +353,15 @@ p {
 
 }
 
+.container5_4 {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 420px;
+    margin: 0 auto;
+    float: left;
+
+}
+
 .container6 {
     padding-top: 100px;
     /*padding-right: 27px;*/
@@ -354,6 +372,15 @@ p {
 }
 
 .container7 {
+    padding-left: 20px;
+    padding-top: 130px;
+    width: 610px;
+    margin: 0 auto;
+    float: left;
+
+}
+
+.container77 {
     padding-left: 20px;
     padding-top: 130px;
     width: 610px;
@@ -539,7 +566,7 @@ p {
 
 .moving_5.fixed {
     /*left: 235px;*/
-    top: 140px;
+    top: 20px;
 }
 
 .moving_6.fixed {
@@ -549,8 +576,13 @@ p {
 
 .moving_7.fixed {
     /*left: 235px;*/
-    top: 140px;
+    top: 80px;
 }
+
+.moving_8.fixed {
+   top: 20px;
+}
+
 
 .box2 {
     margin-left: 20px;
@@ -583,6 +615,7 @@ p {
 
 .box5 {
     width: 190px;
+    margin-top: 130px;
     padding-left: 20px;
     /*float: left;*/
     color: #444444;
@@ -597,6 +630,7 @@ p {
 
 .box7 {
     width: 400px;
+    margin-top:100px;
     padding-left: 20px;
     /*float: left;*/
     color: #444444;
@@ -860,7 +894,7 @@ width: 400px;
 }
 
 .image-box0_5 {
-
+width: 610px;
 }
 
 .image-box0_6 {
@@ -1034,8 +1068,8 @@ width: 610px;
 }
 
 .txt-1 {
-    margin-top: -8px;
     width: 100%;
+    margin-top:-8px;
     font-family: 'Roboto', sans-serif;
     font-size: 11.5px;
     line-height: 180%;
@@ -1071,6 +1105,7 @@ width: 610px;
     text-decoration: underline;
 
 }
+
 
 .txt-99 {
     width: 100%;
