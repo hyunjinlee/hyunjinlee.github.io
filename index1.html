@@ -10,14 +10,14 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:300,300italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/earlyaccess/nanumgothic.css' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
     <!--<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>-->
     <title>portfolio</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+<!--     <script src="js/vendor/jquery-1.10.2.min.js"></script> -->
 </head>
 
 <body>
@@ -43,11 +43,11 @@
 
                         <a href="#MOTIONGRAPHIC" class="activeSlide motiongraphic">MOTIONGRAPHIC</a>
 
-                        <a href="#WEB" class="activeSlide web">WEB/MOBILE</a>
+                        <a href="#WEB/MOBILE" class="activeSlide">WEB/MOBILE</a>
 
-                        <a href="#PRINT" class="activeSlide print">PRINT</a>
+                        <a href="#PRINT" class="activeSlide">PRINT</a>
 
-                        <a href="#ABOUT" class="activeSlide about">ABOUT</a>
+                        <a href="#ABOUT" class="activeSlide">ABOUT</a>
 
                     </p>
                 </div>
@@ -849,8 +849,8 @@
 <!--4page contents end-->
 
 <!--web design2 page contents-->
-<div class="module" id="WEB">
-    <div class="container container5">
+<div class="module">
+    <div class="container container5" id="WEB/MOBILE">
         <div class="fade-in image5">
             <div class="a image-box0_5">
                 <a href="img/image-box10_1.png">
@@ -887,10 +887,7 @@
     <div class="container container5">
         <div class="fade-in image5">
             <div class="a image-box0_5">
-                <a href="img/image-box09_0.png">
-                    <img class="image-box0_5" src="img/image-box09_0.png">
-                </a>
-                <a href="img/image-box09_1.png">
+                <a href=".">
                     <img class="image-box0_5" src="img/image-box09_1.png">
                 </a>
 
@@ -921,8 +918,8 @@
 
 
 <!--5page contents-->
-<div class="module" id="PRINT">
-    <div class="container container5">
+<div class="module">
+    <div class="container container5" id="PRINT">
         <div class="fade-in image5">
             <div class="a image-box0_5">
                 <a href=".">
@@ -973,8 +970,8 @@
 <!--5page contents end-->
 
 <!--about-->
-<div class="module" id="ABOUT">
-    <div class="container container99_0">
+<div class="module">
+    <div class="container container99_0" id="ABOUT">
         <div class="fade-in image3">
             <div class="a image-box00_99">
                 <a href=".">
@@ -1136,40 +1133,21 @@
         var container = $('#RECENTLY');
         var position = container.position();
         console.log(position.top);
-        $('body').animate({scrollTop: position.top}, 1500, 'easeInOutCubic');
+        $('body').animate({scrollTop: position.top}, 1000, 'easeInOutCubic');
     });
-
+    
     $('.installation').click(function(e) {
         var container = $('#INSTALLATION');
         var position = container.position();
         console.log(position.top);
-        $('body').animate({scrollTop: position.top}, 1500, 'easeInOutCubic');
+        $('body').animate({scrollTop: position.top}, 1000, 'easeInOutCubic');
     });
-
+    
     $('.motiongraphic').click(function(e) {
         var container = $('#MOTIONGRAPHIC');
         var position = container.position();
         console.log(position.top);
-        $('body').animate({scrollTop: position.top}, 1500, 'easeInOutCubic');
-    });
-
-    $('.web').click(function(e) {
-        var container = $('#WEB');
-        var position = container.position();
-        console.log(position.top);
-        $('body').animate({scrollTop: position.top}, 1500, 'easeInOutCubic');
-    });
-    $('.print').click(function(e) {
-        var container = $('#PRINT');
-        var position = container.position();
-        console.log(position.top);
-        $('body').animate({scrollTop: position.top}, 1500, 'easeInOutCubic');
-    });
-    $('.about').click(function(e) {
-        var container = $('#ABOUT');
-        var position = container.position();
-        console.log(position.top);
-        $('body').animate({scrollTop: position.top}, 1500, 'easeInOutCubic');
+        $('body').animate({scrollTop: position.top}, 1000, 'easeInOutCubic');
     });
 
 
