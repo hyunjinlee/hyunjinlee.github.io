@@ -714,7 +714,7 @@ p {
     margin-top: 20px;
     width: 610px;
     float: left;
-    margin-bottom: 200px;
+    margin-bottom: 290px;
 }
 
 /*이미지 왼쪽*/
@@ -868,6 +868,12 @@ p {
     margin-top: 10px;
 }
 
+.image-box2_1 {
+
+    margin-top: 10px;
+    /*text-align: justify;*/
+}
+
 .image-box2_2 {
     width: 400px;
     margin-top: 10px;
@@ -911,7 +917,7 @@ p {
 }
 
 .image-box2_4 {
-    margin-top: 500px;
+    margin-top: 630px;
 }
 
 .image-box2_5 {
@@ -943,7 +949,7 @@ p {
 }
 
 .image-box0_6 {
-
+    width: 610px;
 }
 
 .image-box1_6 {
@@ -1195,7 +1201,7 @@ width: 610px;
 
 .image-box4 {
     width: 190px;
-    /*margin-top: 200px;*/
+    padding-top:20px;
 }
 
 .image-box5 {
