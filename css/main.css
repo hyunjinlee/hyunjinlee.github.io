@@ -122,6 +122,7 @@ header {
     z-index: 999;
 }
 
+
 .container {
     float: left;
     width: 100%;
@@ -200,6 +201,17 @@ p {
     margin-top: 0px;
     padding: 0px;
     width: 100%;
+}
+
+
+.word{
+    font-family: 'Crimson Text', serif;
+    font-weight: 800;
+    font-size: 32px;
+    padding: 350px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 /*1 page contents*/
