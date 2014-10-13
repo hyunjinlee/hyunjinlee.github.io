@@ -207,11 +207,11 @@ p {
 .word{
     font-family: 'Crimson Text', serif;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 34px;
     padding: 350px;
     color: #ffffff;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.1em;
 }
 
 /*1 page contents*/
