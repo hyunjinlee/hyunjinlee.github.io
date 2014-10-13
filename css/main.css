@@ -108,8 +108,8 @@ a {
 }
 
 body {
+    width: 80.5em;
     margin: 0 auto;
-    width: 100%;
     display: block;
 }
 
@@ -216,7 +216,7 @@ p {
 
 /*1 page contents*/
 .module {
-    width:  80.5em;
+    width:  100%;
     float: left;
     overflow: hidden;
     padding-top: 0px;
