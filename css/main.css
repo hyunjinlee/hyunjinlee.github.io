@@ -228,7 +228,7 @@ p {
 .main{
     width:100%;
     margin-top: 80px;
-    min-height: 760px;
+    min-height: 100%;
     position: relative;
     background-image: url("../img/main.png");
     background-size: 100%;
