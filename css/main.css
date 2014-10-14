@@ -108,7 +108,7 @@ a {
 }
 
 body {
-    width: 80.5em;
+/*     width: 80.5em; */
     margin: 0 auto;
     display: block;
 }
@@ -216,19 +216,20 @@ p {
 
 /*1 page contents*/
 .module {
-    width:  100%;
-    float: left;
+	width: 80.5em;
+/*     width:  100%; */
+/*     float: left; */
     overflow: hidden;
     padding-top: 0px;
     padding-bottom: 16px;
-    margin-bottom: 94px;
+    margin: 0 auto 94px;
     position: relative;
 }
 
 .main{
     width:100%;
-    margin-top: 80px;
-    min-height: 100%;
+    margin-top: 120px;
+    min-height: 760px;
     position: relative;
     background-image: url("../img/main.png");
     background-size: 100%;
