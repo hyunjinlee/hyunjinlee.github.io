@@ -206,14 +206,14 @@ p {
 
 
 .word{
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Playball', cursive;
     font-weight: 400;
     font-size: 3.8em;
     padding: 5em;
     color: white;
     text-align: center;
     text-shadow: 1px 1px 2px #444444;
-    letter-spacing: 0;
+    letter-spacing: 1;
 }
 
 /*1 page contents*/
