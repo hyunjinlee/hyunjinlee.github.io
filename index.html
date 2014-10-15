@@ -58,7 +58,7 @@
     </nav>
 </header>
 
-<div class="fade-in three main">
+<div class="fade-in three main" id="main">
     <p class="word">Every moment makes me better.</p>
 </div>
 
@@ -1054,9 +1054,8 @@
             <div class="txt">
                 <div class="category">MOTTO</div>
                 <div class="txt-00">EVERY MOMENT IS WORTH</div>
-                <div class="txt-01">과거로부터 현재까지의 모든 순간은 지금까지의 "이현진"이 되기 위한 중요한 경험들입니다. 저는 한국의 서울에 거주하는 그래픽 디자이너입니다. 현재 디스트릭트 홀딩스의 크리에이티브 디자인 부문 비주얼 디자이너로 일하고 있습니다. 저는 홍익대학교 디지털 미디어 디자인과에서 디지털분야의 비주얼 디자인과 새로운 비주얼 커뮤니케이션을 할 수 있는 기술들을 공부했습니다. 개인작업과 다양한 프로젝트를 통하여 저는 UI디자인과 브랜딩, 일러스트레이션, 모션그래픽 분야까지 경계를 넘나들며 도전하고 있습니다. 그리고 궁극적으로 디자인으로 사회와 사람에게 도움이 되는 디자이너가 되는 것이 디자인을 하는 목적입니다.
-                </div>
-                <div class="txt-01">Every moment from the past to the present is precious experience for being “Lee HyunJin”. I am a graphic designer from Seoul, Korea. Currently I am a visual designer at CD part, D'strict holdings. I graduated of the Digital Media Design department at Hongik University. In student, I focused on digital visual design and my fascination with digital technologies grew as I learned of the visual communicate design experiences that motion graphics projects. Throughout my personal and professional projects, I attempts to blur the boundaries between UI design, branding, illustration, motion graphics that can arise independently from the work’s application. Finally, my mission as a designer is that helping society and people in the world.</div>
+                <div class="txt-01">과거로부터 현재까지의 모든 순간은 지금까지의 "이현진"이 되기 위한 중요한 경험들입니다. 저는 한국의 서울에 거주하는 디자이너입니다. 현재 디스트릭트 홀딩스의 크리에이티브 디자인 부문 비주얼 디자이너로 일하고 있습니다. 저는 홍익대학교 디지털 미디어 디자인과에서 뉴미디어 디자인과 비주얼 커뮤니케이션 디자인을 공부했습니다. 개인작업과 다양한 프로젝트를 통하여 UI디자인과 브랜딩, 일러스트레이션, 모션그래픽 분야까지 경계를 넘나들며 도전하고 있습니다. 그리고 궁극적으로 디자인으로 사회와 사람에게 도움이 되는 디자이너가 되는 것이 디자인을 하는 목적입니다.</div>
+                    <div class="txt-01">Every moment from the past to the present is precious experience for being “Lee HyunJin”. I am a graphic designer from Seoul, Korea. Currently I am a visual designer at CD part, D'strict holdings. I graduated of the Digital Media Design department at Hongik University. In student, I focused on digital visual design and my fascination with digital technologies grew as I learned of the visual communicate design experiences that motion graphics projects. Throughout my personal and professional projects, I attempts to blur the boundaries between UI design, branding, illustration, motion graphics that can arise independently from the work’s application. Finally, my mission as a designer is that helping society and people in the world.</div>
             </div>
             <div class="box fade-in box99_1">
                 <div class="txt">
@@ -1168,6 +1167,8 @@
         }
     };
 
+
+
     $(document).on('scroll', function () {
         var scrollOffsetY = $(window).scrollTop();
         var module = dxd.events.currentExposedModule(scrollOffsetY);
@@ -1178,6 +1179,19 @@
             $('.module').find('.moving_box').removeClass('fixed');
         }
     });
+
+
+//    function random_imglink(){
+//        var myimages = ["item1", "2", ...];
+//        myimages[1]="main1.png";
+//        myimages[2]="main2.png";
+//        myimages[3]="main3.png";
+//        myimages[4]="main4.png";
+//        myimages[5]="main5.png";
+//        var number = Math.floor((Math.random() * myimages.length) + 1);
+//        $("#main").css('background-image', 'url('+myimages['number']+');');
+//    }
+//    random_imglink();
 
 
     $('.activeSlide').click(function () {
